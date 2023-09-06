@@ -9,5 +9,9 @@ many repetitions of the same experiment.
 
 Que :- What do you understand by PMF ?
 
-Sol :- The Probability Mass Function, or PMF, of a random variable is a mathematical function that assigns probabilities to each possible outcome or value that the random variable can take in a discrete probability distribution. It tells us the likelihood of each specific outcome occurring. In other words, the PMF provides a complete probability distribution for a discrete random variable, allowing us to understand the probabilities associated with different values or events within that distribution.
+Sol :- The Probability Mass Function, or PMF, of a random variable is a mathematical function that assigns probabilities to 
+each possible outcome or value that the random variable can take in a discrete probability distribution. 
+It tells us the likelihood of each specific outcome occurring. In other words, the PMF provides a complete probability 
+distribution for a discrete random variable, allowing us to 
+understand the probabilities associated with different values or events within that distribution.
 (You can tell its properties to, how to check that some function is PMF or not)
