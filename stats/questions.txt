@@ -15,3 +15,12 @@ It tells us the likelihood of each specific outcome occurring. In other words, t
 distribution for a discrete random variable, allowing us to 
 understand the probabilities associated with different values or events within that distribution.
 (You can tell its properties to, how to check that some function is PMF or not)
+
+Que :- What do you understand by PDF ?
+
+The Probability Density Function, or PDF, of a random variable is a mathematical function used to describe the 
+probability distribution of a continuous random variable. Unlike the Probability Mass Function (PMF) for discrete 
+random variables, the PDF doesn't assign probabilities to individual values but provides a probability density across a 
+range of values. Specifically, the area under the PDF curve over a given interval represents the probability of the 
+random variable falling within that interval. In essence, the PDF helps us understand the relative likelihood of 
+different values for a continuous random variable.
