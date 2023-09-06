@@ -27,4 +27,10 @@ different values for a continuous random variable.
 
 Que :- What do you understand by CDF ?
 
-SOl :- The Cumulative Distribution Function, or CDF, of a random variable is a mathematical function that provides the cumulative probability of the random variable taking on a value less than or equal to a specific value. In other words, it gives us the probability that the random variable is less than or equal to a given value. The CDF is a fundamental concept in probability and statistics and is especially useful for understanding the behavior of random variables, including both discrete and continuous ones. It helps us answer questions like 'What is the probability that the random variable is below a certain threshold?' and is a key tool in various statistical analyses and modeling tasks.
+SOl :- The Cumulative Distribution Function, or CDF, of a random variable is a mathematical function that provides the 
+cumulative probability of the random variable taking on a value less than or equal to a specific value. In other words, 
+it gives us the probability that the random variable is less than or equal to a given value. 
+The CDF is a fundamental concept in probability and statistics and is especially useful for understanding the 
+behavior of random variables, including both discrete and continuous ones. It helps us answer questions 
+like 'What is the probability that the random variable is below a certain threshold?' and is a key tool 
+in various statistical analyses and modeling tasks.
