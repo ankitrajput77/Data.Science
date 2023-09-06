@@ -1,0 +1,9 @@
+Que :- What do you understand by Expectation of random variale ?
+
+Sol :- The expectation of a random variable is a fundamental concept in probability theory. It represents the long-term average 
+or the 'expected value' of that random variable. In simpler terms, it's a way to quantify what we can expect, on average, 
+from a random process. It's calculated by summing or integrating the possible values of the random variable, 
+each weighted by its probability of occurrence. 
+This value helps us understand the central tendency or the average behavior of the random variable over
+many repetitions of the same experiment.
+
