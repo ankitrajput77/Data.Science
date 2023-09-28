@@ -118,7 +118,8 @@ plt.scatter(X[:, 0], X[:, 1],
 			s=20, edgecolors="k")
 plt.show()
 ```
-![Uploading image.png…]()
+![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/261e5fdb-9b3c-4e51-a92e-560e4e7fb6ce)
+
 
 
 
