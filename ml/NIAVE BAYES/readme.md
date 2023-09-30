@@ -61,10 +61,15 @@ Now, we need to create a classifier model. For this, we find the probability of 
 - ![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/01d26ec3-9274-43f7-a860-e15862a1b62f)
 - ![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/279b930d-3b8b-4c21-8548-b13b7031bdd4)
 - ![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/2a100f41-d26a-43c0-8aef-9dbe5943adbc)
+- These numbers can be converted into a probability by making the sum equal to 1 (normalization):
 - ![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/13c520de-c0d5-473d-b7ba-966262c18f8d)
 - 
+![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/78c360b2-c4fc-4252-b23e-d09503efac0f)
+![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/60db83ee-c817-4e82-8f80-bfe336eddf56)
 
+So, prediction that golf would be played is ‘Yes’.
 
+The method that we discussed above is applicable for discrete data. In case of continuous data, we need to make some assumptions regarding the distribution of values of each feature. The different naive Bayes classifiers differ mainly by the assumptions they make regarding the distribution of P(xi | y).
 
 
 
