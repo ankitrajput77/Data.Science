@@ -86,3 +86,47 @@ Feature vectors represent the frequencies with which certain events have been ge
 In the multivariate Bernoulli event model, features are independent booleans (binary variables) describing inputs. Like the multinomial model, this model is popular for document classification tasks, where binary term occurrence(i.e. a word occurs in a document or not) features are used rather than term frequencies(i.e. frequency of a word in the document).
 
 
+## Applications of Naive Bayes algorithm 
+Table of Contents
+
+- Naïve Bayes is one of the most straightforward and fast classification algorithm. It is very well suited for large volume of data. It is successfully used in various applications such as :
+
+1. Spam filtering
+2. Text classification
+3. Sentiment analysis
+4. Recommender systems
+It uses Bayes theorem of probability for prediction of unknown class.
+
+# Frequently Asked Questions (FAQs)  
+1. What is the benefit of Naive Bayes in machine learning? 
+- High scalability 
+
+- Gives more accuracy in less amount of data 
+
+- Less training time. 
+
+- Provides partial_fit mechanism while training the model with a large amount of data. 
+
+- Considering each feature as an independent entity gives more accuracy.  
+
+2. Why do we use a naive Bayes algorithm?
+- It assumes that the value of a particular feature is independent of the value of any other feature, given the class variable. For example, a fruit may be considered to be an apple if it is red, round, and about 10 cm in diameter.  
+
+- A naive Bayes classifier considers each of these features to contribute independently to the probability that this fruit is an apple, regardless of any possible correlations between the color, roundness, and diameter features. It uses the method of maximum likelihood; Despite its design and apparently oversimplified assumptions.  
+
+- Naive Bayes classifiers have worked quite well in many complex real-world situations. An advantage of naive Bayes is that it only requires a small number of training data to estimate the parameters necessary for classification.  
+
+- It is very fast and scalable. So many real-time prediction applications use it. 
+
+3. What is the difference between Bayes and Naive Bayes?  
+- Naive Bayes uses the Bayes theorem as the base of the algorithm. It is an inspiration for it. Bayes's theorem is not made for classification or telling about the classification. Naive is a collection of elements in algorithms used for classification. Bayes's theorem is one of them. 
+
+- By fighting the dataset into the Bayes theorem, the Naive Bayes algorithm is prepared with the highest probability that why we used argmax. And following the equation, we will get 
+- y= argmaxy P(Y) 
+- ∏ni=1∏i=1n
+- P( Xi / y)   
+
+- As we know, the Naive Bayes algorithm has different types based on assumptions of the distribution of  P( Xi / y). For more details, check out What is a Naive Bayes Classifier?  
+
+4. Is naive Bayes classification or regression?  
+- It is basically a classification algorithm. It trained to identify categories and predict in which category they fall for new values. But it strongly depended on assumptions by doing some changes in that you can use it as regression
