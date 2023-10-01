@@ -1,0 +1,19 @@
+1. What is the Central Limit Theorem, and why is it important in statistics?
+
+2. Under what conditions does the Central Limit Theorem apply?
+
+3. Can you explain how the Central Limit Theorem is used in practice for hypothesis testing and confidence intervals?
+
+4. What is the role of sample size in the Central Limit Theorem, and why is a sufficiently large sample size important?
+
+5. How does the Central Limit Theorem apply when dealing with non-normally distributed populations?
+
+6. In the context of the Central Limit Theorem, what is the sampling distribution of the sample mean?
+
+7. How does the Central Limit Theorem relate to the concept of standard error?
+
+8. Can you explain how the Central Limit Theorem is used in practice when estimating population parameters, such as the mean or proportion?
+
+9. What is the impact of increasing the sample size on the shape of the sampling distribution according to the Central Limit Theorem?
+
+10. Are there any limitations or assumptions associated with the Central Limit Theorem that one should be aware of when applying it to real-world data analysis?
