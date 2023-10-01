@@ -23,6 +23,7 @@ Base models' predicted probabilities are averaged, and the class with the highes
 For regression problems, base models' predictions are averaged to obtain the final prediction.
 ## Weighted Averaging: Similar to voting, this ensemble technique combines base models' predictions by assigning different weights to each model's output. The weights are often determined based on the performance of the individual models on a validation set.
 
-## Adaptive Boosting (AdaBoost): AdaBoost is a boosting algorithm that assigns weights to data points and focuses on the samples that were misclassified by previous base models. It iteratively trains new base models, adjusting the weights to give more emphasis to difficult-to-classify examples.
+## Adaptive Boosting (AdaBoost): 
+AdaBoost is a boosting algorithm that assigns weights to data points and focuses on the samples that were misclassified by previous base models. It iteratively trains new base models, adjusting the weights to give more emphasis to difficult-to-classify examples.
 
 - Ensemble techniques are effective because they harness the diversity and complementary strengths of multiple models. By combining their predictions, ensemble methods can often achieve higher accuracy, better generalization, and improved robustness to noisy or outlier data compared to individual models. However, they may also require more computational resources and tuning to optimize their performance. The choice of ensemble technique and the selection of base models should be guided by the characteristics of the specific problem and dataset.
