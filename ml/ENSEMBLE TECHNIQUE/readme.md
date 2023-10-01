@@ -4,8 +4,10 @@
 ## Bagging (Bootstrap Aggregating): 
 Bagging is an ensemble technique that creates multiple base models by training them on different subsets of the training data. Each base model is trained independently, and their predictions are combined through averaging (for regression) or voting (for classification). Random Forest is a well-known ensemble method that uses bagging with decision trees as its base models.
 
-## Boosting: B
-oosting is an ensemble technique that combines multiple base models sequentially. It focuses on training each new base model to correct the mistakes made by the previous models. Common boosting algorithms include AdaBoost, Gradient Boosting (e.g., XGBoost, LightGBM), and CatBoost.
+![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/f9d93ebd-ede9-4ee3-860d-679c2fd5351f)
+
+## Boosting: 
+Boosting is an ensemble technique that combines multiple base models sequentially. It focuses on training each new base model to correct the mistakes made by the previous models. Common boosting algorithms include AdaBoost, Gradient Boosting (e.g., XGBoost, LightGBM), and CatBoost.
 
 ## Stacking (Stacked Generalization): 
 Stacking involves training multiple diverse base models and then training a "meta-model" (often a simple model like logistic regression) on top of the base models' predictions. The meta-model learns to combine the base models' outputs to make the final prediction. Stacking can capture different aspects of the data and often leads to improved performance.
