@@ -27,7 +27,7 @@
 
 - However, AdaBoost can be sensitive to noisy data and outliers. It's also important to set the number of iterations (weak learners) carefully to prevent overfitting. Despite these considerations, AdaBoost is a powerful and widely used ensemble learning method, known for its ability to improve the performance of weak classifiers and create strong predictive models.
 
-```python
+~~~python
   # Import necessary libraries
 from sklearn.datasets import load_iris
 from sklearn.ensemble import AdaBoostClassifier
@@ -58,4 +58,4 @@ y_pred = adaboost.predict(X_test)
 # Calculate the accuracy of the AdaBoost model
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy:.2f}")
-
+~~~
