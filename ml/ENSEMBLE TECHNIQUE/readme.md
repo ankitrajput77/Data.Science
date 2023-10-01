@@ -21,7 +21,8 @@ Each base model's prediction is treated as a vote, and the class with the most v
 Base models' predicted probabilities are averaged, and the class with the highest average probability is selected as the final prediction (for classification).
 ### Regression Averaging: 
 For regression problems, base models' predictions are averaged to obtain the final prediction.
-## Weighted Averaging: Similar to voting, this ensemble technique combines base models' predictions by assigning different weights to each model's output. The weights are often determined based on the performance of the individual models on a validation set.
+## Weighted Averaging: 
+Similar to voting, this ensemble technique combines base models' predictions by assigning different weights to each model's output. The weights are often determined based on the performance of the individual models on a validation set.
 
 ## Adaptive Boosting (AdaBoost): 
 AdaBoost is a boosting algorithm that assigns weights to data points and focuses on the samples that were misclassified by previous base models. It iteratively trains new base models, adjusting the weights to give more emphasis to difficult-to-classify examples.
