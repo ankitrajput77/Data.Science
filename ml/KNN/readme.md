@@ -29,12 +29,12 @@
 - Choosing an appropriate value for K is crucial. A small K (e.g., K=1) can lead to noisy predictions, while a large K can lead to overly smoothed decision boundaries. The choice of K depends on the dataset and the problem at hand. You can use techniques like cross-validation to determine the best K value.
 
 ## Pros and Cons of KNN:
-Pros:
+- Pros:
 - Simple to understand and implement.
 - Works well for small to medium-sized datasets.
 - No training phase, which makes it computationally efficient during training.
 - Non-parametric, which means it can handle complex decision boundaries.
-Cons:
+- Cons:
 - Computationally expensive during prediction, especially for large datasets.
 - Sensitive to the choice of K and the distance metric.
 - Not suitable for high-dimensional data (curse of dimensionality).
