@@ -1,1 +1,1 @@
-# aptitude CAT
+# aptitude
