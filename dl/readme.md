@@ -17,4 +17,7 @@ In Logistic regression, we want to train the parameters w and b, we need to defi
 The loss function measures the discrepancy between the prediction (𝑦̂(𝑖)) and the desired output (𝑦(𝑖)). In other words, the loss function computes the error for a single training example.
 ![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/062ff24b-5a46-4a3c-8a15-a981ce3fad23)
 
-
+- The cost function is the average of the loss function of the entire training set. We are going to find the parameters 𝑤 𝑎𝑛𝑑 𝑏 that minimize the overall cost function.
+![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/756f6518-c633-4b16-86e0-f131da7cbfbc)
+- The loss function measures how well the model is doing on the single training example, whereas the cost function measures how well the parameters w and b are doing on the entire training set.
+- 
