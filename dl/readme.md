@@ -4,20 +4,17 @@
 - A neural network (also called an artificial neural network) is an adaptive system that learns by using interconnected nodes or neurons in a layered structure that resembles a human brain. A neural network can learn from data—so it can be trained to recognize patterns, classify data, and forecast future events.
 - It consists of an input layer, one or more hidden layers, and an output layer. In each layer there are several nodes, or neurons, with each layer using the output of the previous layer as its input, so neurons interconnect the different layers. Each neuron typically has weights that are adjusted during the learning process, and as the weight decreases or increases, it changes the strength of the signal of that neuron.
 
-## Logistic Regression as a Neural Network
-- how Logistic regression is implemented for a binary classification, here a Cat vs. Non-Cat classification, which would take an image as an input and output a label to propagation whether this image is a cat (label 1) or not (label 0).
+## why we use activation functions
+1. Non-linearity: Activation functions introduce non-linearity into the network. Without non-linearity, the entire network, no matter how deep, would behave as a linear model, making it limited in its ability to model complex relationships in data. Non-linear activation functions like ReLU (Rectified Linear Unit), Sigmoid, and Tanh allow neural networks to approximate and learn complex, non-linear mappings between inputs and outputs.
 
-- An image is store in the computer in three separate matrices corresponding to the Red, Green, and Blue color channels of the image. The three matrices have the same size as the image, for example, the resolution of the cat image is 64 pixels x 64 pixels, the three matrices (RGB) are 64 by 64 each. To create a feature vector, x, the pixel intensity values will be “unroll” or “reshape” for each color. The dimension of the input feature vector x is n_x=64\times64\times3=12288.
+2. Gradient Flow: Activation functions help in the backpropagation algorithm, which is used to train neural networks. Non-linear activation functions ensure that gradients can flow backward through the network, which is necessary for updating the model's weights and minimizing the loss function.
 
-- Logistic Regression Cost Function
-In Logistic regression, we want to train the parameters w and b, we need to define a cost function.
+3. Normalization: Activation functions can help in normalizing the outputs of neurons. For example, Sigmoid and Tanh functions squish their inputs into a range between 0 and 1 or -1 and 1, respectively. This can help control the scale of the outputs and make optimization more stable.
 
-<img width="343" alt="image" src="https://github.com/ankitrajput77/Data.Science/assets/113281225/e3a41241-642a-4976-b7e3-928a931c641e">
+4. Sparsity: Some activation functions, like ReLU, can induce sparsity in the network. ReLU units produce zero output for all negative inputs, which can lead to sparse representations, helping in feature selection and reducing overfitting.
 
-The loss function measures the discrepancy between the prediction (𝑦̂(𝑖)) and the desired output (𝑦(𝑖)). In other words, the loss function computes the error for a single training example.
-![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/062ff24b-5a46-4a3c-8a15-a981ce3fad23)
+5. Vanishing and Exploding Gradients: Some activation functions can mitigate the vanishing and exploding gradient problems that arise during training in deep networks. For instance, ReLU helps avoid the vanishing gradient problem by allowing gradients to flow for positive inputs, while still imposing an upper limit, preventing exploding gradients.
 
-- The cost function is the average of the loss function of the entire training set. We are going to find the parameters 𝑤 𝑎𝑛𝑑 𝑏 that minimize the overall cost function.
-![image](https://github.com/ankitrajput77/Data.Science/assets/113281225/756f6518-c633-4b16-86e0-f131da7cbfbc)
-- The loss function measures how well the model is doing on the single training example, whereas the cost function measures how well the parameters w and b are doing on the entire training set.
-- 
+6. Squashing Outputs: Certain activation functions like Sigmoid and Tanh squish the outputs within a finite range, which can be advantageous when the network needs to produce probabilities or values within a specific range.
+
+
