@@ -1,2 +1,2 @@
 # Data.Science
-This Repo contains the study material related to data science.
+This repo contains study material related to data science.
