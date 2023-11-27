@@ -1,0 +1,76 @@
+what is ml?
+- 
+Machine Learning (ML) is a subfield of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computer systems to learn from and make predictions or decisions based on data. 
+The fundamental idea behind machine learning is to allow computers to automatically learn and improve their performance on a specific task without being explicitly programmed.
+
+what is supervised ml?
+-
+Supervised Machine Learning (Supervised ML) is a type of machine learning where the algorithm is trained on a labeled dataset, 
+meaning that the input data is paired with corresponding output labels. The goal of supervised learning is to learn a mapping or 
+relationship between the input features and the output labels so that the model can make predictions on new, unseen data.
+
+what is unsupervised ml?
+-
+Unsupervised Machine Learning (Unsupervised ML) is a type of machine learning where the algorithm is given data without explicit instructions on what to do with it. 
+In other words, the algorithm is not provided with labeled output data, and its goal is to find patterns, structures, or relationships within the data on its own.
+- Fraud Detection in Finance
+- Medical Image Analysis
+
+data collection
+data preprocessing
+feature extraction and dimension reduction
+clustering
+anomoly detection
+association rule learning
+
+what is reinforcement learning ?
+-
+Reinforcement Learning (RL) is a type of machine learning paradigm where an agent learns to make decisions by interacting with its environment. 
+The agent takes actions, receives feedback in the form of rewards or penalties, and adjusts its strategy to maximize the cumulative reward over time. 
+The goal of reinforcement learning is to enable the agent to learn optimal behavior in a given environment.
+-
+example:- learning cycle, gaming bots
+example:- AlphaGo
+
+validation dataset?
+-
+A validation data set is a data-set of examples used to tune the hyperparameters (i.e. the architecture) of a classifier.
+In order to avoid overfitting, when any classification parameter needs to be adjusted, it is necessary to have a validation data set in addition to the training and test datasets. For example, if the most suitable classifier for the problem is sought, the training data set is used to train the different candidate classifiers, the validation data set is used to compare their performances and decide which one to take and, 
+finally, the test data set is used to obtain the performance characteristics such as accuracy, sensitivity, specificity, F-measure, and so on.
+
+Underfitting and overfitting?
+-
+Underfitting and overfitting are two common issues in machine learning that relate to how well a model generalizes to new, unseen data.
+
+underfitting?
+-
+(High Bias and Low variance)
+Underfitting occurs when a model is too simple to capture the underlying patterns in the training data. As a result, it performs poorly on both the training data and new, unseen data.
+reason:-
+used wrong model, used linear model in non linear dataset
+dataset is insufficient, small, insuficient features
+less epochs.
+addressing:-
+use good model
+increase complexity of model by hyperparameter tunning
+use good dataset
+good number of epochs.
+
+Overfitting?
+(High Variance and Low Bias)
+-
+Overfitting occurs when a model is too complex and fits the training data too closely, capturing noise(Noisy data are data with a large amount of additional meaningless information in it called noise.) and outliers. 
+As a result, it performs well on the training data but poorly on new, unseen data.
+Reasons:-
+Model complexity is too high, allowing the model to fit the noise in the training data.
+Limited amount of training data.
+addressing:-
+Reduce model complexity (e.g., use simpler algorithms or regularization techniques).
+Increase the amount of training data.
+Use techniques like cross-validation to assess model performance on different subsets of the data.
+Apply regularization methods to penalize overly complex models.
+
+
+
+
+
