@@ -53,7 +53,7 @@ less epochs.
 addressing:-
 use good model
 increase complexity of model by hyperparameter tunning
-use good dataset
+adding more layers.
 good number of epochs.
 
 Overfitting?
@@ -69,6 +69,64 @@ Reduce model complexity (e.g., use simpler algorithms or regularization techniqu
 Increase the amount of training data.
 Use techniques like cross-validation to assess model performance on different subsets of the data.
 Apply regularization methods to penalize overly complex models.
+
+Bias and variance?
+-
+Bias
+-
+Reperesent the model tendency to consistently make incorrect assumptions about the relationship between input and target variable.
+
+variance
+-
+Variance refers to the model's sensitivity to small fluctuations or noise in the training data. It measures how much the model's predictions would vary if it were trained on a different dataset.
+Using a high-degree polynomial model with insufficient data, causing the model to fit the noise in the training set.
+
+
+Bias-Variance Tradeoff?
+-
+There is often a tradeoff between bias and variance. Increasing model complexity tends to reduce bias but may increase variance, and vice versa.
+
+
+MCAR - no systematic reason of missing
+MAR - has relationship with observed data but not with missing data
+MNAR - has relationship with missing data's factors.
+
+smote - synthetic minority oversampling technique
+
+Regularization techniques, such as L1 and L2 regularization, penalize large coefficients in linear models. If features are on different scales, regularization may disproportionately shrink or penalize some features more than others.
+Neural networks with gradient-based optimization benefit from feature scaling. It helps avoid vanishing or exploding gradients, leading to more stable and efficient training.
+
+
+1. Filter Methods:
+Statistical Tests:
+
+Use statistical tests (e.g., chi-squared, ANOVA) to evaluate the correlation between each feature and the target variable.
+Calculate correlation coefficients (e.g., Pearson, Spearman) between features and remove those with low correlation with the target variable or high correlation with other features.
+
+
+2. Wrapper Methods:
+Recursive Feature Elimination (RFE):
+
+Fit a model, remove the least significant feature, and repeat until the desired number of features is reached.
+Forward Feature Selection:
+
+Start with an empty set of features and iteratively add the most significant feature until the model's performance stops improving.
+Backward Feature Elimination:
+
+Start with all features and iteratively remove the least significant feature until the model's performance stops improving.
+
+
+Regularization Techniques:
+
+Apply regularization techniques (e.g., L1 or L2 regularization) that penalize large coefficients, encouraging the model to select only the most relevant features.
+Principal Component Analysis (PCA):
+
+Transform features into a lower-dimensional space while retaining most of the original data's variability.
+
+
+
+
+
 
 
 
