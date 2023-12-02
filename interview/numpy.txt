@@ -1,0 +1,43 @@
+List: Lists are less memory-efficient compared to NumPy arrays, especially when dealing with large datasets, as they store additional information (type information, references, etc.).
+NumPy Array: NumPy arrays are more memory-efficient as they store data in a contiguous block of memory without the overhead of additional information for each element.
+List: Lists come with a variety of built-in methods for common operations (e.g., append(), extend(), insert(), etc.).
+NumPy Array: NumPy provides a rich set of mathematical functions and operations that can be applied element-wise, making it well-suited for numerical and scientific computing.
+List: A Python list can store elements of different data types. It can contain a mix of integers, floats, strings, or even other lists.
+NumPy Array: NumPy arrays are homogeneous, meaning all elements must be of the same data type. This uniformity allows for more efficient storage and operations.
+
+arr = np.array([1,2,3,4,5])
+arr.dtype
+arr.shape
+arr.size
+np.zeros((rows , columns))
+np.arange(start, end, jump)
+np.linspace(start, end, elements)
+np.empty((r, c)) #random array
+np.identity(45) #identity matrix
+arr.T
+arr.reshape((newrow, newcol))
+arr.ravel()  #one d array
+arr.sum(axis=0)
+arr.flat #make one d iteratro the iterate it using forloop
+arr.size
+arr.ndim
+arr.nbytes
+arr.argmax() #index of max element by flatten method
+arr.argmin()
+arr.argsort() #sorted indexes
+f.argmax(axis=1) #col wise
+f.argmax(axis=0) #row wise
+np.sum(arr, axis=0) #col wise idk why
+np.concatenate((arr1, arr2), axis=0)  #row wise
+np.concatenate((arr1, arr2.T), axis=1) # col add
+np1 + np2 element wise addition
+list1 + list1 - concatination 
+np1*np2 - element wise multiply
+np1**np2 matrix mul
+np.sqrt(arr)
+arr.sum()
+arr.min()
+np.where(arr>5) #return list of indexes
+np.count_nonzero(arr)
+np.nonzero(arr) #list of index of zeros elements
+
