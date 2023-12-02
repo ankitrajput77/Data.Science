@@ -1,0 +1,51 @@
+line chat
+plt.plot(xpoints, linestyle = 'dotted')
+plt.plot(xpoints, linestyle = 'dashed')
+plt.plot(xpoints) #solid
+
+plt.plot(x, y, color='green', marker='o', linestyle='dashed',
+     linewidth=2, markersize=12)
+
+plt.grid(axis = 'x')
+
+plt.subplot(1, 2, 1)
+#the figure has 1 row, 2 columns, and this plot is the first plot.
+
+
+plt.suptitle("MY SHOP") #for subplots
+
+N = 50
+x = np.random.rand(N)
+y = np.random.rand(N)
+colors = np.random.rand(N)
+area = (30 * np.random.rand(N))**2
+plt.scatter(x, y, s=area, c=colors, alpha=0.5)
+
+
+fig, ax = plt.subplots()
+fruits = ['apple', 'blueberry', 'cherry', 'orange']
+counts = [40, 100, 30, 55]
+bar_labels = ['red', 'blue', '_red', 'orange']
+bar_colors = ['tab:red', 'tab:blue', 'tab:red', 'tab:orange']
+
+ax.bar(fruits, counts, label=bar_labels, color=bar_colors)
+ax.set_ylabel('fruit supply')
+ax.set_title('Fruit supply by kind and color')
+ax.legend(title='Fruit color')
+plt.show()
+
+
+labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
+sizes = [15, 30, 45, 10]
+fig, ax = plt.subplots()
+ax.pie(sizes, labels=labels)
+
+
+
+
+
+
+
+
+
+
