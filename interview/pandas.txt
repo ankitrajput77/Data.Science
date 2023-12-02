@@ -1,0 +1,52 @@
+series = pd.Series(mylist)
+df = pd.read_csv('data.csv')
+df = pandas.DataFrame(dict)
+df = pandas.DataFrame(dict, index = [4,3,2])
+print(pd.__version__)
+df = pd.Series(a, index = ["x", "y", "z"])
+
+
+df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]}, index=['row1', 'row2', 'row3'])
+# Select the element in the second row and column 'A'
+value = df.loc['row2', 'A']
+# Select all rows and columns from 'A' to 'B'
+subset = df.loc[:, 'A':'B']
+# Access the row with the index 'row2'
+row = df.loc['row2', :]
+# Select rows with indices 'row1' and 'row3'
+selected_rows = df.loc[['row1', 'row3'], :]
+# Select rows where column 'A' has values greater than 1
+filtered_rows = df.loc[df['A'] > 1, :]
+
+# Select rows with indices 0 and 2
+selected_rows = df.iloc[[0, 2], :]
+# Select rows where column 'A' has values greater than 1
+filtered_rows = df.iloc[df['A'] > 1, :]
+# Access the second row
+row = df.iloc[1, :]
+# Select all rows and the first two columns
+subset = df.iloc[:, 0:2]
+# Select the element in the second row and first column
+value = df.iloc[1, 0]
+
+
+df = pd.read_json('data.json')
+print(new_df.to_string())
+df.dropna(inplace = True)
+df.fillna(130, inplace = True)
+df["Calories"].mean()
+x = df["Calories"].median()
+x = df["Calories"].mode()[0]
+df['Date'] = pd.to_datetime(df['Date'])
+Note a Time if not possible to convert
+df.dropna(subset=['Date'], inplace = True)
+for x in df.index:
+  if df.loc[x, "Duration"] > 120:
+    df.drop(x, inplace = True)
+#Returns True for every row that is a duplicate, otherwise False:
+print(df.duplicated())
+df.drop_duplicates(inplace = True)
+df.corr()
+#The corr() method ignores "not numeric" columns.
+
+
