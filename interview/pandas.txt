@@ -47,6 +47,26 @@ for x in df.index:
 print(df.duplicated())
 df.drop_duplicates(inplace = True)
 df.corr()
+df.loc[[list of index]]
 #The corr() method ignores "not numeric" columns.
+
+
+# matplotlib
+
+df = pd.read_csv('data.csv')
+df.plot()
+df.plot(kind = 'scatter', x = 'Duration', y = 'Calories')
+plt.show()
+df["Duration"].plot(kind = 'hist')
+df.dtypes
+df.T #transpose
+df.sort_index(axis = 0, ascending=False)
+nextdf = df #view 
+nextdf = df.copy() #copy created
+newdf = df.reset_index(drop=True)
+df['name'].value_counts(dropna=False)
+df = pd.read_excel(excel_file_path, sheet_name=sheet2)
+
+
 
 
